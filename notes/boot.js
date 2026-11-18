@@ -313,11 +313,17 @@
     startSpy();
   }
 
-  function go() {
-    C.render();
+  function go(reset) {
     var main = document.querySelector("main");
-    if (main) main.scrollTop = 0;
-    window.scrollTo(0, 0);
+    var top = main ? main.scrollTop : 0, wtop = window.scrollY;
+    C.render();
+    if (reset) {
+      if (main) main.scrollTop = 0;
+      window.scrollTo(0, 0);
+    } else {
+      if (main) main.scrollTop = top;
+      window.scrollTo(0, wtop);
+    }
     afterRender();
   }
 
@@ -337,7 +343,7 @@
       ev.preventDefault();
       mode = tab.dataset.tab;
       deck = null; answers = {}; submitted = false;
-      go();
+      go(true);
       return;
     }
 
@@ -349,7 +355,9 @@
       var st = checkStore(box.dataset.key, box.dataset.sec);
       st[pick.dataset.qi] = Number(pick.dataset.pick);
       C.save();
-      go();
+      var holder = document.createElement("div");
+      holder.innerHTML = checkHTML(box.dataset.key, box.dataset.sec, items);
+      box.replaceWith(holder.firstElementChild);
       return;
     }
 
@@ -376,8 +384,15 @@
     var ans = ev.target.closest("[data-ans]");
     if (ans) {
       ev.preventDefault();
-      answers[Number(ans.dataset.ans)] = Number(ans.dataset.oi);
-      go();
+      var qi = Number(ans.dataset.ans), oi = Number(ans.dataset.oi);
+      answers[qi] = oi;
+      var tq = ans.closest(".tq");
+      Array.prototype.forEach.call(tq.querySelectorAll(".tq-b"), function (b) {
+        if (Number(b.dataset.oi) === oi) b.classList.add("is-pick");
+        else b.classList.remove("is-pick");
+      });
+      var cnt = document.querySelector(".tfoot .count");
+      if (cnt) cnt.textContent = Object.keys(answers).length + " answered";
       return;
     }
 
@@ -394,12 +409,13 @@
     var el = ev.target.closest("[data-note]");
     if (!el) return;
     var kind2 = el.dataset.note;
-    if (kind2 === "open") { openKey = el.dataset.key; mode = "read"; }
-    else if (kind2 === "back") { openKey = null; mode = "read"; }
+    var moved = false;
+    if (kind2 === "open") { openKey = el.dataset.key; mode = "read"; moved = true; }
+    else if (kind2 === "back") { openKey = null; mode = "read"; moved = true; }
     else if (kind2 === "read") { meta()["read:" + el.dataset.key] = true; C.save(); }
     else return;
     ev.preventDefault();
-    go();
+    go(moved);
   });
 
   C.render();

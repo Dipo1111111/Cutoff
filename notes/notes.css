@@ -126,8 +126,7 @@
   color:var(--ink-2);cursor:pointer;transition:border-color var(--dur) var(--ease),
   background var(--dur) var(--ease),color var(--dur) var(--ease)}
 .q-o-b:hover{border-color:var(--ink-3);color:var(--ink)}
-.q-o-b.is-right{border-color:var(--accent);background:var(--accent-soft);color:var(--ink);
-  font-weight:600}
+.q-o-b.is-right{border-color:#1E7A46;background:#E9F6EE;color:#0D3B23;font-weight:600}
 .q-o-b.is-wrong{border-color:#B3261E;background:#FCEFED;color:#7A1A15}
 .q-w{font-size:12.5px;line-height:1.5;color:var(--ink-3);margin-top:8px;min-height:0}
 .q-w:empty{display:none}
