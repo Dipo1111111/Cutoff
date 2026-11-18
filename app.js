@@ -674,6 +674,29 @@
   var RAILS = { week: railWeek, plan: railPlan, progress: railProgress,
     left: railLeft, settings: railSettings };
 
+  /* public hook: a local module can add a screen and a nav item at load time */
+  window.Cutoff = {
+    views: VIEWS,
+    rails: RAILS,
+    state: state,
+    save: save,
+    render: function () { render(); },
+    esc: esc,
+    add: function (id, label, view, rail, icon) {
+      if (!id || VIEWS[id]) return;
+      VIEWS[id] = view;
+      RAILS[id] = rail || function () { return ""; };
+      var nav = document.querySelector(".nav");
+      if (!nav) return;
+      var a = document.createElement("a");
+      a.href = "#" + id;
+      a.setAttribute("data-screen", id);
+      a.innerHTML = "<span>" + label + "</span>";
+      if (icon && icon.nodeType === 1) a.insertBefore(icon, a.firstChild);
+      nav.insertBefore(a, nav.lastElementChild);
+    }
+  };
+
   function screen() {
     var h = (location.hash || "#week").slice(1);
     return VIEWS[h] ? h : "week";
