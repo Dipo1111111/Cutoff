@@ -5,7 +5,7 @@ window.NOTES["phy:1"] = {
   kicker: "Physics · Topic 1",
   title: "Measurements and Units",
   sub: "Base units, instruments, dimensions, errors, significant figures",
-  words: 4200,
+  words: 4890,
   lede: "Every physics answer is a number with a unit. This topic teaches how those two parts are built, how a length or a mass is actually measured in a laboratory, and how to say how wrong the answer might be. Master it and the rest of the syllabus stops producing unit mistakes.",
   toc: [
     ["s0", "How to use this page"],
