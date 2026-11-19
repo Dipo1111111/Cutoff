@@ -1,6 +1,6 @@
 # Memory — Cutoff study board
 
-Last updated: 2026-11-17 21:40
+Last updated: 2026-11-17 23:10
 
 ## Recurring context
 
@@ -12,7 +12,7 @@ Last updated: 2026-11-17 21:40
 - Type: Geist Serif for headings and the wordmark only. Inter Tight for every other role. Tabular numerals on all data.
 - Palette: `--ground #FFFFFF`, `--side #0B0C0E` (black sidebar), `--side-2 #F2F4F7` (rail), `--ink #0F141B`, `--accent #2F6FE4`, `--line #DCE3ED`. 60 white / 30 black structure / 10 azure.
 - Gates: learned = 10 questions, 6 correct, 12 minutes. Locked = 10 fresh questions, 8 correct, 10 minutes, 7 days after learned.
-- Repo: `https://github.com/Dipo1111111/Cutoff`, branch `main`, pushed at commit `9c86d67`. `_proof/` and `.DS_Store` are gitignored. `memory.md` stays untracked on purpose.
+- Repo: `https://github.com/Dipo1111111/Cutoff`, branch `main`, pushed at commit `f5de6c6`. `_proof/` and `.DS_Store` are gitignored. `memory.md` is now tracked.
 - Notes module, tracked and public since the owner changed his mind on 17 November. Entry point `notes.html` at the project root. Files: `data.js` (`window.NOTES`, text for each topic), `quiz.js` (`window.QUIZ`, checks, cards, final test), `boot.js` (list, reader, cards, test, rail, nav item, stylesheet injection), `notes.css`, `sync.sh` (rebuilds `notes.html` from `index.html`).
 - Extension point: `window.Cutoff` in `app.js` with `add(id, label, view, rail, icon)`. A module registers a screen and a nav item at load. `add` takes a real SVG element, never HTML, and the icon needs `width` and `height` attributes.
 - Test tools outside the repo, rebuilt as needed because `/tmp` gets cleared: `/tmp/cdp.mjs <file> <png> <W> <H>` for true-viewport screenshots, `/tmp/v.mjs <file> <W>` for a per-screen error and width sweep, `/tmp/modes.mjs` for the three note modes. Remote debugging needs a random port near 10000-12800 and up to 70 retries before Chrome answers.
@@ -61,9 +61,19 @@ Read mode mounts one check block after the last element of each section. The mou
 
 `README.md` now describes the board, the notes folder and storage.
 
+## Words screen
+
+`words/` holds the English deck. `data.js` has 227 words and 40 idioms with a meaning and an example sentence each. `words.js` registers the Words screen: two tabs, Today and All. Today gives seven words and three idioms, fixed by the day number so the set changes at midnight, and lists all ten with meanings under the card. Again keeps a card in the deck; Got it records it in `state.words.known` and drops it. `words.css` carries its own copy of the card and section styles, so it does not depend on `notes.css`.
+
+## Biology note 1
+
+`bio:1` Living Organisms, Cells and Levels of Organisation. 2,175 words, sections s0 to s10: study habits, the seven characteristics, living against non-living, cells and the microscope, plant cell, animal cell, comparison, specialised cells, the five levels, unicellular organisms, traps and a coverage table. Ten check blocks, 40 cards, 40 exam questions. Every fact is tied to one of the five syllabus objectives; nothing outside the syllabus is kept.
+
+The notes list screen now groups by subject prefix (Physics, Biology) and numbers each row by its plan id.
+
 ## Pushed
 
-Commit `9c86d67` adds `notes.html`, `notes/` and the extension hook, and updates `README.md`, `app.js`, `index.html`, `styles.css`. Local `HEAD` equals `origin/main`. `notes/` was removed from `.git/info/exclude`, and the copy that said git ignores the folder is gone.
+Commit `f5de6c6` adds the words deck and the biology note. Commit `9c86d67` adds `notes.html`, `notes/` and the extension hook, and updates `README.md`, `app.js`, `index.html`, `styles.css`. Local `HEAD` equals `origin/main`. `notes/` was removed from `.git/info/exclude`, and the copy that said git ignores the folder is gone.
 
 ## Next session starts with
 
