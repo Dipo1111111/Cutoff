@@ -66,7 +66,7 @@
   }
 
   function tabs() {
-    return '<div class="tabs">' + [["today", "Today"], ["all", "All"]].map(function (x) {
+    return '<div class="tabs">' + [["today", "Today"], ["words", "Words"], ["idioms", "Idioms"]].map(function (x) {
       return '<button class="tab" data-wtab="' + x[0] + '"' +
         (mode === x[0] ? ' aria-current="true"' : "") + ">" + x[1] + "</button>";
     }).join("") + "</div>";
@@ -98,9 +98,9 @@
     var i = pos % open.length, c = open[i];
     return head + '<div class="stack">' +
       '<div class="cwrap">' + faceHTML(c) + "</div>" +
-      '<div class="crow"><button class="btn quiet" data-wdeck="again">Again</button>' +
+      '<div class="crow"><button class="btn quiet" data-wdeck="again">Not yet</button>' +
       '<button class="btn" data-wdeck="known">Got it</button></div>' +
-      '<p class="note">Again keeps the card in the deck. Got it takes it out for today and for good.</p>' +
+      '<p class="note">Not yet keeps the card in today\'s deck. Got it takes it out for good.</p>' +
       '<div class="sec"><div class="sec-h"><h2>Today\'s ten</h2><span>' + open.length +
       " left of " + list.length + "</span></div>" + list.map(row).join("") + "</div></div>";
   }
@@ -113,18 +113,20 @@
       (c.e ? '<p class="we">' + esc(c.e) + "</p>" : "") + "</div>";
   }
 
-  function allView() {
-    var words = ALL.filter(function (c) { return c.kind === "Word"; });
-    var ids = ALL.filter(function (c) { return c.kind === "Idiom"; });
-    return '<div class="tools">' + tabs() + '<span class="count num">' + countLine() +
-      "</span></div>" + '<div class="stack">' +
-      '<div class="sec"><div class="sec-h"><h2>Words</h2><span>' + words.length + "</span></div>" +
-      words.map(row).join("") + "</div>" +
-      '<div class="sec"><div class="sec-h"><h2>Idioms</h2><span>' + ids.length + "</span></div>" +
-      ids.map(row).join("") + "</div></div>";
+  function listView(kind, title) {
+    var items = ALL.filter(function (c) { return c.kind === kind; });
+    var done = items.filter(function (c) { return known(c.id); }).length;
+    return '<div class="tools">' + tabs() + '<span class="count num">' + done + " of " +
+      items.length + " known" + "</span></div>" + '<div class="stack">' +
+      '<div class="sec"><div class="sec-h"><h2>' + title + "</h2><span>" + items.length +
+      "</span></div>" + items.map(row).join("") + "</div></div>";
   }
 
-  function view() { return mode === "all" ? allView() : todayView(); }
+  function view() {
+    if (mode === "words") return listView("Word", "Words");
+    if (mode === "idioms") return listView("Idiom", "Idioms");
+    return todayView();
+  }
 
   function rail() {
     var k = Object.keys(store().known).length;

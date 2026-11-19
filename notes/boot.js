@@ -148,9 +148,9 @@
       esc(flipped ? c.a : c.q) + "</span>" +
       '<span class="chint">' + (flipped ? "Click to see the question" : "Click to flip") +
       "</span></button></div>" +
-      '<div class="crow"><button class="btn quiet" data-deck="again">Again</button>' +
+      '<div class="crow"><button class="btn quiet" data-deck="again">Not yet</button>' +
       '<button class="btn" data-deck="known">Got it</button></div>' +
-      '<p class="note">Again puts the card back at the end of the deck. Got it keeps it out ' +
+      '<p class="note">Not yet puts the card back at the end of the deck. Got it keeps it out ' +
       "until you restart.</p></div>";
   }
 
@@ -241,7 +241,7 @@
         " known</small></span></div></div>" +
         '<div class="r-block"><span class="lab">How to run it</span>' +
         '<p class="r-meta">Read the question, answer it out loud, then flip. If the answer ' +
-        "came slowly, press Again.</p></div>";
+        "came slowly, press Not yet.</p></div>";
     }
     var b = best(openKey);
     return '<div class="r-block"><span class="lab">Test</span>' +
