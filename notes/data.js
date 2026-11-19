@@ -597,3 +597,205 @@ window.NOTES["bio:1"] = {
 `
 };
 
+window.NOTES["eng:4"] = {
+  kicker: "English \u00b7 Oral Forms",
+  title: "Oral English: Sounds, Rhymes and Stress",
+  sub: "Vowels, consonants, clusters, rhymes, word stress, emphatic stress",
+  words: 1826,
+  lede: "Section C carries ten marks and tests five fixed patterns. This page gives the sound system in the order the paper asks for it: the twenty vowels, the twenty-four consonants, clusters, rhymes and homophones, word stress and emphatic stress. Every rule ends in a pair you can hear.",
+  toc: [
+    ["s0", "How to use this page"],
+    ["s1", "What the paper asks"],
+    ["s2", "Letters and sounds"],
+    ["s3", "Vowels: the twelve monophthongs"],
+    ["s4", "Diphthongs and triphthongs"],
+    ["s5", "Consonants"],
+    ["s6", "Clusters and connected speech"],
+    ["s7", "Rhymes and homophones"],
+    ["s8", "Word stress"],
+    ["s9", "Emphatic stress"],
+    ["s10", "Traps and coverage"]
+  ],
+  html: `<h2 id="s0">How to use this page</h2>
+<p>Oral English is the easiest ten marks on the paper. There is nothing to calculate and nothing to memorise as prose. You need the sound of a word, and the sound arrives only when you say the word out loud.</p>
+<div class="entry"><span class="n num">01</span><div><h4>Say every example aloud</h4><p>Reading a vowel table in silence teaches nothing. Say the example word, hold the vowel, then say the pair. The ear learns faster than the eye for this topic.</p></div></div>
+<div class="entry"><span class="n num">02</span><div><h4>Learn by pairs, not by list</h4><p>A sound is known when you can hear what it is not. Ship against sheep. Cot against caught. Think against sink. One pair is worth ten single words.</p></div></div>
+<div class="entry"><span class="n num">03</span><div><h4>Tap the stress</h4><p>Say a long word and tap the table on the strong syllable. Tap on the loud beat, not the first beat. Your hand will remember the pattern.</p></div></div>
+<div class="entry"><span class="n num">04</span><div><h4>Ask the contrast question</h4><p>For emphatic stress, find the word that answers the hidden question. If the question is "Did Bola buy a blue car?", the stressed word is RED. The stressed word is always the one that changes.</p></div></div>
+<div class="warn"><span class="wl">How the checks work</span><p>Two questions close each section. Say the answers aloud before you click. Tick Oral Forms on Week when all ten sections hold.</p></div>
+
+<h2 id="s1">What the paper asks</h2>
+<p>Section C carries ten marks. It tests five patterns, two questions each, and the pattern never changes.</p>
+<div class="tw"><table>
+<tr><th>Pattern</th><th>Questions</th><th>What you must do</th></tr>
+<tr><td>Vowels</td><td>2</td><td>Match a word to the vowel sound in another word</td></tr>
+<tr><td>Consonants</td><td>2</td><td>Match a consonant sound, including clusters</td></tr>
+<tr><td>Rhymes</td><td>2</td><td>Choose the word that rhymes, or the homophone</td></tr>
+<tr><td>Word stress</td><td>2</td><td>Mark the strong syllable</td></tr>
+<tr><td>Emphatic stress</td><td>2</td><td>Pick the word that carries the emphasis</td></tr>
+</table></div>
+<p>The question is written as a comparison. "Which word has the same vowel sound as <b>bird</b>?" You are not asked to name the symbol. You are asked to hear that two words share one sound.</p>
+<div class="def"><span class="dl">The count to keep</span><p>English has 44 sounds: 20 vowels and 24 consonants. The alphabet has 26 letters. Letters and sounds are not the same thing, which is why <b>ough</b> can sound six different ways.</p></div>
+
+<h2 id="s2">Letters and sounds</h2>
+<p>A letter is written. A sound is spoken. One letter can carry several sounds, and one sound can be written by several letters.</p>
+<div class="tw"><table>
+<tr><th>Letter group</th><th>Sounds it can carry</th><th>Examples</th></tr>
+<tr><td>a</td><td>/æ/, /eɪ/, /ɑː/, /ɔː/, /ə/</td><td>cat, late, car, talk, about</td></tr>
+<tr><td>ea</td><td>/iː/, /e/, /eɪ/</td><td>seat, bread, great</td></tr>
+<tr><td>ou</td><td>/aʊ/, /ʌ/, /ʊ/, /ɔː/</td><td>out, country, could, thought</td></tr>
+<tr><td>ough</td><td>/ʌf/, /ɒ/, /ɔː/, /aʊ/, /uː/</td><td>rough, cough, bought, plough, through</td></tr>
+<tr><td>ch</td><td>/tʃ/, /k/, /ʃ/</td><td>church, school, machine</td></tr>
+</table></div>
+<p>The written form cannot settle the question. Say the word. If you cannot say it, you cannot answer it, and that is the whole difficulty of this topic.</p>
+
+<h2 id="s3">Vowels: the twelve monophthongs</h2>
+<p>A monophthong is one steady vowel, with the tongue in one place. English has twelve.</p>
+<div class="tw"><table>
+<tr><th>Symbol</th><th>Example</th><th>Common spelling</th><th>Length</th></tr>
+<tr><td>/iː/</td><td>sheep</td><td>ee, ea, ie</td><td>Long</td></tr>
+<tr><td>/ɪ/</td><td>ship</td><td>i, y, ui</td><td>Short</td></tr>
+<tr><td>/e/</td><td>bed</td><td>e, ea</td><td>Short</td></tr>
+<tr><td>/æ/</td><td>cat</td><td>a</td><td>Short</td></tr>
+<tr><td>/ɑː/</td><td>car</td><td>ar, a</td><td>Long</td></tr>
+<tr><td>/ɒ/</td><td>hot</td><td>o, ou</td><td>Short</td></tr>
+<tr><td>/ɔː/</td><td>door</td><td>or, aw, ough</td><td>Long</td></tr>
+<tr><td>/ʊ/</td><td>book</td><td>oo, u</td><td>Short</td></tr>
+<tr><td>/uː/</td><td>food</td><td>oo, ue, u</td><td>Long</td></tr>
+<tr><td>/ʌ/</td><td>cup</td><td>u, o, ou</td><td>Short</td></tr>
+<tr><td>/ɜː/</td><td>bird</td><td>ir, er, ur, or</td><td>Long</td></tr>
+<tr><td>/ə/</td><td>about</td><td>any weak syllable</td><td>Weak</td></tr>
+</table></div>
+<p>Seven are short: /ɪ/, /e/, /æ/, /ɒ/, /ʊ/, /ʌ/, /ə/. Five are long: /iː/, /ɑː/, /ɔː/, /uː/, /ɜː/. The long mark is the two dots.</p>
+<div class="def"><span class="dl">The pairs that win marks</span><p>ship /ɪ/ against sheep /iː/. full /ʊ/ against fool /uː/. cot /ɒ/ against caught /ɔː/. hut /ʌ/ against heart /ɑː/. Learn each pair as one item.</p></div>
+<p>/ə/ is the schwa, the weakest sound in English. It appears in almost every unstressed syllable: <b>a</b>bout, teach<b>er</b>, <b>a</b>gain, mot<b>o</b>r. Naming the schwa is the fastest way to answer a stress question.</p>
+
+<h2 id="s4">Diphthongs and triphthongs</h2>
+<p>A diphthong is two vowel sounds in one syllable. The tongue starts in one place and glides to another. English has eight.</p>
+<div class="tw"><table>
+<tr><th>Symbol</th><th>Example</th><th>Glide</th></tr>
+<tr><td>/eɪ/</td><td>day</td><td>e toward i</td></tr>
+<tr><td>/aɪ/</td><td>my</td><td>a toward i</td></tr>
+<tr><td>/ɔɪ/</td><td>boy</td><td>o toward i</td></tr>
+<tr><td>/aʊ/</td><td>now</td><td>a toward u</td></tr>
+<tr><td>/əʊ/</td><td>go</td><td>schwa toward u</td></tr>
+<tr><td>/ɪə/</td><td>here</td><td>i toward schwa</td></tr>
+<tr><td>/eə/</td><td>hair</td><td>e toward schwa</td></tr>
+<tr><td>/ʊə/</td><td>tour</td><td>u toward schwa</td></tr>
+</table></div>
+<p>Group them by the second half. Three end in /ɪ/: /eɪ/, /aɪ/, /ɔɪ/. Two end in /ʊ/: /aʊ/, /əʊ/. Three end in /ə/: /ɪə/, /eə/, /ʊə/. That is one line to remember.</p>
+<p>A triphthong is three vowels in one syllable, and all five end in /ə/:</p>
+<div class="tw"><table>
+<tr><th>Symbol</th><th>Example</th></tr>
+<tr><td>/eɪə/</td><td>player</td></tr>
+<tr><td>/aɪə/</td><td>fire</td></tr>
+<tr><td>/ɔɪə/</td><td>loyal</td></tr>
+<tr><td>/aʊə/</td><td>power</td></tr>
+<tr><td>/əʊə/</td><td>lower</td></tr>
+</table></div>
+<div class="warn"><span class="wl">The test habit</span><p>Do not count letters. <b>Day</b> has one vowel letter and one diphthong. <b>Fire</b> has two vowel letters and one triphthong. Count the sounds you hear.</p></div>
+
+<h2 id="s5">Consonants</h2>
+<p>English has 24 consonants. They come in voiced and voiceless pairs, made in the same place with the same lips and tongue. The only difference is whether the vocal cords vibrate.</p>
+<div class="tw"><table>
+<tr><th>Pair</th><th>Voiceless</th><th>Voiced</th><th>Example pair</th></tr>
+<tr><td>Lips</td><td>/p/</td><td>/b/</td><td>pin, bin</td></tr>
+<tr><td>Lips and teeth</td><td>/f/</td><td>/v/</td><td>fan, van</td></tr>
+<tr><td>Tongue and teeth</td><td>/θ/</td><td>/ð/</td><td>thin, this</td></tr>
+<tr><td>Tongue and ridge</td><td>/t/</td><td>/d/</td><td>tin, din</td></tr>
+<tr><td>Back of tongue</td><td>/k/</td><td>/g/</td><td>coat, goat</td></tr>
+<tr><td>Teeth ridge</td><td>/s/</td><td>/z/</td><td>sip, zip</td></tr>
+<tr><td>Palate</td><td>/ʃ/</td><td>/ʒ/</td><td>ship, measure</td></tr>
+<tr><td>Palate, stopping</td><td>/tʃ/</td><td>/dʒ/</td><td>chin, gin</td></tr>
+</table></div>
+<p>The other eight have no voiceless partner: /m/, /n/, /ŋ/, /l/, /r/, /j/, /w/ and /h/. /h/ is the voiceless one of that group with no voiced partner.</p>
+<div class="def"><span class="dl">Four confusions to fix</span><p>/θ/ against /t/: think is not tink. /ð/ against /d/: this is not dis. /ʃ/ against /s/: ship is not sip. /ŋ/ against /n/: sing is not sin, and it has no hard g after it.</p></div>
+
+<h2 id="s6">Clusters and connected speech</h2>
+<p>A cluster is two or more consonants together with no vowel between them. English allows long clusters at the end of a word, and that is where most marks are lost.</p>
+<div class="tw"><table>
+<tr><th>Position</th><th>Examples</th><th>Watch</th></tr>
+<tr><td>Start, two</td><td>play, street, school, fly, tree</td><td>Do not add a vowel: not "s(i)chool"</td></tr>
+<tr><td>Start, three</td><td>splash, strong, screw, shrink</td><td>All three are said, quickly</td></tr>
+<tr><td>End, two</td><td>asked, helped, wants, desks</td><td>Say both, not "aske"</td></tr>
+<tr><td>End, three</td><td>texts, prompts, sixths</td><td>Rare but tested</td></tr>
+<tr><td>Across words</td><td>next day, best time</td><td>Clusters join, nothing is dropped</td></tr>
+</table></div>
+<p>Connected speech has three habits. Elision drops a sound: <b>next day</b> sounds like "nex day". Assimilation changes a sound to match its neighbour: <b>ten boys</b> sounds like "tem boys". Linking joins a final consonant to a first vowel: <b>an apple</b> sounds like "a napple".</p>
+<div class="warn"><span class="wl">The plural rule</span><p>The plural is /s/ after a voiceless sound (cats), /z/ after a voiced sound (dogs), and /ɪz/ after a sibilant (buses). The exam can ask which word ends with the /z/ sound. Say the word and listen.</p></div>
+
+<h2 id="s7">Rhymes and homophones</h2>
+<p>Two words rhyme when the stressed vowel and everything after it are the same, and the sound before it differs.</p>
+<div class="tw"><table>
+<tr><th>Word</th><th>Rhymes with</th><th>Does not rhyme with</th></tr>
+<tr><td>rain</td><td>main, plain, train</td><td>ran, rein (same sound, same spelling family but a different word)</td></tr>
+<tr><td>though</td><td>low, go, show</td><td>thought, through</td></tr>
+<tr><td>great</td><td>weight, eight, late</td><td>greet, grate</td></tr>
+<tr><td>move</td><td>prove, groove</td><td>love, dove</td></tr>
+</table></div>
+<p>The trap is spelling. <b>Great</b> rhymes with <b>weight</b>, not with <b>greet</b>. <b>Love</b> rhymes with <b>dove</b>, not with <b>move</b>. Choose by sound and check the last stressed vowel.</p>
+<p>A homophone sounds the same but has a different spelling and meaning.</p>
+<div class="tw"><table>
+<tr><th>Pair</th><th>Meanings</th></tr>
+<tr><td>write, right</td><td>to put words down; correct or a direction</td></tr>
+<tr><td>sea, see</td><td>the ocean; to look</td></tr>
+<tr><td>pair, pear</td><td>two together; the fruit</td></tr>
+<tr><td>flour, flower</td><td>ground grain; the bloom of a plant</td></tr>
+<tr><td>peace, piece</td><td>calm; a part of something</td></tr>
+<tr><td>knight, night</td><td>an armed rider; the dark hours</td></tr>
+<tr><td>whole, hole</td><td>complete; an opening</td></tr>
+<tr><td>sail, sale</td><td>to travel by wind; a sale of goods</td></tr>
+</table></div>
+
+<h2 id="s8">Word stress</h2>
+<p>Stress is the strong beat in a word. A stressed syllable is louder, longer and higher than its neighbours. Only one syllable carries the main stress.</p>
+<div class="tw"><table>
+<tr><th>Rule</th><th>Pattern</th><th>Examples</th></tr>
+<tr><td>Two-syllable nouns and adjectives</td><td>First syllable</td><td>TAble, HAPpy, DOCtor, WINdow</td></tr>
+<tr><td>Two-syllable verbs</td><td>Second syllable</td><td>beGIN, forGET, aRRIVE, deCIDE</td></tr>
+<tr><td>Endings -tion, -sion, -ic, -ical, -ity</td><td>Just before the ending</td><td>eduCAtion, deCIsion, elecTRIC, poLItical, elecTRICity</td></tr>
+<tr><td>Endings -graphy, -logy, -nomy, -cracy</td><td>Just before the ending</td><td>phoTOgraphy, biOlogy, eCONomy, deMOCracy</td></tr>
+<tr><td>Endings -eer, -ee, -ese, -ette</td><td>On the ending</td><td>engiNEER, refuGEE, ChiNESE, cigaRETTE</td></tr>
+<tr><td>Compound nouns</td><td>First part</td><td>BLACKbird, TEApot, FOOTball</td></tr>
+</table></div>
+<p>Some words change meaning when the stress moves. A <b>REcord</b> is a noun; to <b>reCORD</b> is a verb. The same shift appears in PREsent, OBject, INcrease, PERmit, CONduct, EXport and PROtest.</p>
+<div class="ex"><div class="ex-h">Worked example · count the beat</div><div class="ex-b">
+<p><b>photography</b> has four syllables: pho-to-graph-y. The stress falls just before -graphy, on <b>to</b>.</p>
+<p><b>photograph</b> has three syllables and stress on the first: PHO-to-graph. One suffix changes the beat.</p>
+<p><b>photographic</b> moves again, to just before -ic: pho-to-GRAPH-ic.</p>
+</div></div>
+
+<h2 id="s9">Emphatic stress</h2>
+<p>Emphatic stress puts the strong beat on the word that carries new or contrasted information. The other words keep their normal stress.</p>
+<p>The method is fixed. Read the statement, find the hidden question, then stress the answer word.</p>
+<div class="tw"><table>
+<tr><th>Statement</th><th>Hidden question</th><th>Stressed word</th></tr>
+<tr><td>Bola bought a <b>red</b> car yesterday.</td><td>Did Bola buy a blue car?</td><td>red</td></tr>
+<tr><td>Bola <b>bought</b> a red car yesterday.</td><td>Did Bola steal the car?</td><td>bought</td></tr>
+<tr><td><b>Bola</b> bought a red car yesterday.</td><td>Did Ada buy the car?</td><td>Bola</td></tr>
+<tr><td>Bola bought a red car <b>yesterday</b>.</td><td>Did Bola buy it today?</td><td>yesterday</td></tr>
+</table></div>
+<div class="def"><span class="dl">The rule in one line</span><p>The word that answers the doubt takes the emphasis. If the sentence corrects a fact, stress the corrected word.</p></div>
+<p>Two smaller points carry marks. A stressed word is longer and louder, not higher in pitch alone. And the article or preposition is never the emphatic word, unless the question is about that exact word.</p>
+
+<h2 id="s10">Traps and coverage</h2>
+<p>Five errors cause most of the lost marks in this section.</p>
+<div class="entry"><span class="n num">01</span><div><h4>Spelling is not sound</h4><p>Great, weight and eight share one vowel. Greet does not. Judge by ear, never by the letters.</p></div></div>
+<div class="entry"><span class="n num">02</span><div><h4>Do not add a vowel to a cluster</h4><p>School starts with /sk/, not "sik". Street starts with /str/. Adding a vowel changes the word.</p></div></div>
+<div class="entry"><span class="n num">03</span><div><h4>Stress is not the first syllable</h4><p>For verbs, for -tion and for -graphy words, the first syllable is usually weak. Tap the beat before you answer.</p></div></div>
+<div class="entry"><span class="n num">04</span><div><h4>Emphasis answers a question</h4><p>Do not stress the last word out of habit. Find the contrast first.</p></div></div>
+<div class="entry"><span class="n num">05</span><div><h4>Rhyme ignores spelling</h4><p>Move and love look alike and do not rhyme. Prove and move do rhyme and share no spelling pattern.</p></div></div>
+<div class="tw"><table>
+<tr><th>Syllabus objective</th><th>Where it is answered</th></tr>
+<tr><td>Distinguish vowel types</td><td>s3, s4</td></tr>
+<tr><td>Distinguish consonant types</td><td>s5, s6</td></tr>
+<tr><td>Identify correct pronunciation of words</td><td>s2, s3, s5, s6</td></tr>
+<tr><td>Identify articulation in connected speech</td><td>s6, s9</td></tr>
+<tr><td>Rhymes and homophones</td><td>s7</td></tr>
+<tr><td>Word stress, monosyllabic and polysyllabic</td><td>s8</td></tr>
+<tr><td>Emphatic stress in connected speech</td><td>s9</td></tr>
+</table></div>
+<p>Everything here comes from Section C of the syllabus. No grammar and no comprehension is kept on this page; those belong to their own topics.</p>
+`
+};
+

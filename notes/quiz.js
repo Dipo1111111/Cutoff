@@ -325,3 +325,127 @@ window.QUIZ["bio:1"] = {
     { q: "Which line correctly pairs a structure with its function?", o: ["Chloroplast: releases energy from glucose", "Mitochondrion: traps light energy", "Ribosome: builds protein", "Vacuole: controls entry to the cell"], a: 2, w: "Ribosomes build protein. The other three pairings are swapped.", s: "s10" }
   ]
 };
+
+window.QUIZ["eng:4"] = {
+  checks: {
+    s1: [
+      { q: "How many marks does Section C, Oral Forms, carry?", o: ["Five", "Ten", "Fifteen", "Twenty"], a: 1, w: "Two questions on each of five patterns gives ten marks." },
+      { q: "How many sounds does English have?", o: ["26 letters and 26 sounds", "44 sounds, 20 vowels and 24 consonants", "20 sounds, all vowels", "24 sounds, all consonants"], a: 1, w: "Twenty vowels and twenty-four consonants make forty-four sounds." }
+    ],
+    s2: [
+      { q: "The letters <b>ough</b> in <b>cough</b> sound like", o: ["/ʌf/", "/ɒf/", "/uː/", "/aʊ/"], a: 1, w: "Cough rhymes with off. Rough takes /ʌf/, through takes /uː/, plough takes /aʊ/." },
+      { q: "Which statement is correct?", o: ["A letter and a sound are the same thing", "One letter can carry more than one sound", "English has 44 letters", "A sound is always written with two letters"], a: 1, w: "The letter a carries five sounds in cat, late, car, talk and about." }
+    ],
+    s3: [
+      { q: "Which word has the same vowel sound as <b>bird</b>?", o: ["beard", "heard", "bread", "bead"], a: 1, w: "Bird and heard both take /ɜː/. Beard is /ɪə/, bread is /e/, bead is /iː/." },
+      { q: "Which pair is a long and short vowel pair?", o: ["ship and sheep", "cat and hat", "book and look", "cup and cap"], a: 0, w: "Ship is /ɪ/ and sheep is /iː/. The other pairs share one vowel." }
+    ],
+    s4: [
+      { q: "Which word contains a triphthong?", o: ["day", "boy", "fire", "go"], a: 2, w: "Fire is /aɪə/, three vowels in one syllable. The others hold two or one." },
+      { q: "Which group of diphthongs all end in /ɪ/?", o: ["/eɪ/, /aɪ/, /ɔɪ/", "/aʊ/, /əʊ/, /ɔɪ/", "/ɪə/, /eə/, /ʊə/", "/eɪ/, /aʊ/, /əʊ/"], a: 0, w: "Day, my and boy glide toward /ɪ/." }
+    ],
+    s5: [
+      { q: "Which sound is the voiceless partner of /b/?", o: ["/d/", "/p/", "/v/", "/m/"], a: 1, w: "Both /p/ and /b/ are made with the lips; /p/ is voiceless." },
+      { q: "Which word ends with the sound /ŋ/?", o: ["sin", "sing", "sign", "seen"], a: 1, w: "Sing ends in /ŋ/ with no hard g. Sin and seen end in /n/." }
+    ],
+    s6: [
+      { q: "How many consonant sounds are heard at the end of <b>texts</b>?", o: ["One", "Two", "Three", "Four"], a: 2, w: "Texts ends /ksts/: four letters, three sounds after the vowel." },
+      { q: "The plural ending in <b>buses</b> sounds like", o: ["/s/", "/z/", "/ɪz/", "/əz/"], a: 2, w: "After a sibilant the plural adds a full syllable: /ɪz/." }
+    ],
+    s7: [
+      { q: "Which word rhymes with <b>great</b>?", o: ["greet", "weight", "grate", "grit"], a: 1, w: "Great and weight share /eɪt/. Greet and grate take other vowels or consonants." },
+      { q: "Which word is a homophone of <b>peace</b>?", o: ["peas", "piece", "pace", "peach"], a: 1, w: "Piece sounds the same as peace. Peas is close but keeps /z/." }
+    ],
+    s8: [
+      { q: "Which syllable is stressed in <b>photography</b>?", o: ["First", "Second", "Third", "Fourth"], a: 1, w: "The -graphy ending pulls the stress to the syllable before it: pho-TO-graph-y." },
+      { q: "Which word is stressed on the first syllable?", o: ["beGIN", "forGET", "TAble", "aRRIVE"], a: 2, w: "Two-syllable nouns take stress on the first syllable; the other three are verbs." }
+    ],
+    s9: [
+      { q: "In <b>Bola bought a RED car</b>, what is the hidden question?", o: ["Did Bola buy the car?", "Did Bola buy a blue car?", "Did Ada buy the car?", "Did Bola steal the car?"], a: 1, w: "Emphasis on red corrects the colour." },
+      { q: "In <b>Ada WON the prize</b>, the emphasis answers which question?", o: ["Did Ada lose the prize?", "Did Ada win the prize?", "Did Bola win the prize?", "Was the prize big?"], a: 0, w: "Won contrasts with lost, so the doubt is about the result." }
+    ],
+    s10: [
+      { q: "Which pair does NOT rhyme?", o: ["move and prove", "love and glove", "great and weight", "love and move"], a: 3, w: "Love and move share spelling but not sound: /ʌ/ against /uː/. The other three pairs rhyme." },
+      { q: "Which answer avoids adding a vowel to a cluster?", o: ["s(i)chool", "school with /sk/", "sikool", "shool"], a: 1, w: "School begins with /sk/, two consonants and no vowel between them." }
+    ]
+  },
+  cards: [
+    { q: "How many vowel sounds does English have, and how are they split?", a: "Twenty: twelve monophthongs and eight diphthongs, with five triphthongs built from them." },
+    { q: "How many consonant sounds does English have?", a: "Twenty-four." },
+    { q: "Name the twelve monophthongs with one example each.", a: "/iː/ sheep, /ɪ/ ship, /e/ bed, /æ/ cat, /ɑː/ car, /ɒ/ hot, /ɔː/ door, /ʊ/ book, /uː/ food, /ʌ/ cup, /ɜː/ bird, /ə/ about." },
+    { q: "Which monophthongs are long, and what marks them?", a: "/iː/, /ɑː/, /ɔː/, /uː/, /ɜː/. The two dots mark length." },
+    { q: "What is the schwa?", a: "The weak vowel /ə/. It fills unstressed syllables, as in about and teacher." },
+    { q: "Name the eight diphthongs with examples.", a: "/eɪ/ day, /aɪ/ my, /ɔɪ/ boy, /aʊ/ now, /əʊ/ go, /ɪə/ here, /eə/ hair, /ʊə/ tour." },
+    { q: "Group the diphthongs by their second half.", a: "Three end in /ɪ/: /eɪ/, /aɪ/, /ɔɪ/. Two end in /ʊ/: /aʊ/, /əʊ/. Three end in /ə/: /ɪə/, /eə/, /ʊə/." },
+    { q: "Name the five triphthongs with examples.", a: "/eɪə/ player, /aɪə/ fire, /ɔɪə/ loyal, /aʊə/ power, /əʊə/ lower." },
+    { q: "Which voiceless and voiced pairs share a place of articulation?", a: "/p b/, /f v/, /θ ð/, /t d/, /k g/, /s z/, /ʃ ʒ/, /tʃ dʒ/." },
+    { q: "Which consonants have no voiceless partner?", a: "/m/, /n/, /ŋ/, /l/, /r/, /j/, /w/ and /h/." },
+    { q: "Think, tink, sink: name the three consonant sounds.", a: "/θ/ think, /t/ tink, /s/ sink." },
+    { q: "This against dis: name the consonant sounds.", a: "/ð/ this, /d/ dis." },
+    { q: "What is a consonant cluster?", a: "Two or more consonants together with no vowel between them, as in street and asked." },
+    { q: "Give three initial clusters of three consonants.", a: "splash, strong, screw." },
+    { q: "Why is 's(i)chool' wrong?", a: "It adds a vowel into the /sk/ cluster. School starts with /sk/, with no vowel between." },
+    { q: "Give the three sounds of the plural ending, with examples.", a: "/s/ cats, /z/ dogs, /ɪz/ buses." },
+    { q: "What is elision?", a: "A sound is dropped in connected speech, as in next day." },
+    { q: "What is assimilation?", a: "A sound changes to match its neighbour, as in ten boys sounding like tem boys." },
+    { q: "What is linking?", a: "A final consonant joins the next word's first vowel, as in an apple." },
+    { q: "When do two words rhyme?", a: "When the stressed vowel and all sounds after it are the same, and the sound before it differs." },
+    { q: "Which words rhyme with great?", a: "Weight, eight, late." },
+    { q: "Which words rhyme with move?", a: "Prove and groove. Love and dove do not." },
+    { q: "Define a homophone and give three pairs.", a: "Same sound, different spelling and meaning: write and right, sea and see, flour and flower." },
+    { q: "Give the rule for stress in two-syllable nouns and verbs.", a: "Nouns and adjectives stress the first syllable; verbs stress the second." },
+    { q: "Where is the stress in words ending -tion, -ic, -ity?", a: "On the syllable just before the ending: eduCAtion, elecTRIC, elecTRICity." },
+    { q: "Where is the stress in words ending -graphy, -logy, -nomy, -cracy?", a: "On the syllable just before the ending: phoTOgraphy, biOlogy, eCONomy, deMOCracy." },
+    { q: "Where is the stress in words ending -eer, -ee, -ese, -ette?", a: "On the ending: engiNEER, refuGEE, ChiNESE, cigaRETTE." },
+    { q: "Which stress pattern do compound nouns take?", a: "Stress on the first part: BLACKbird, TEApot, FOOTball." },
+    { q: "Give three words whose stress changes meaning.", a: "REcord and reCORD, OBject and obJECT, PREsent and preSENT." },
+    { q: "Stress in photograph, photography and photographic.", a: "PHO-to-graph, pho-TO-graph-y, pho-to-GRAPH-ic." },
+    { q: "State the rule for emphatic stress.", a: "Stress the word that answers the doubt or carries the new information." },
+    { q: "Bola bought a red car yesterday. Stress the answer to 'Did Bola steal the car?'", a: "Bola BOUGHT a red car yesterday." },
+    { q: "Bola bought a red car yesterday. Stress the answer to 'Did Ada buy the car?'", a: "BOLA bought a red car yesterday." },
+    { q: "Where are the two dots used in transcription?", a: "On long vowels: /iː/, /ɑː/, /ɔː/, /uː/, /ɜː/." },
+    { q: "Name the two sounds of th, with examples.", a: "/θ/ thin, voiceless, and /ð/ this, voiced." }
+  ],
+  exam: [
+    { q: "Section C tests five patterns. Which is not one of them?", o: ["Vowels", "Consonants", "Synonyms", "Emphatic stress"], a: 2, w: "Synonyms belong to Lexis and Structure, Section B.", s: "s1" },
+    { q: "The number of vowel sounds in English is", o: ["five", "twelve", "twenty", "twenty-four"], a: 2, w: "Twelve monophthongs and eight diphthongs give twenty vowel sounds.", s: "s1" },
+    { q: "Which word has the same vowel sound as <b>sheep</b>?", o: ["ship", "seat", "set", "sit"], a: 1, w: "Sheep and seat take /iː/. Ship and sit take /ɪ/.", s: "s3" },
+    { q: "Which word has the same vowel sound as <b>hot</b>?", o: ["caught", "cot", "coat", "hut"], a: 1, w: "Hot and cot both take /ɒ/. Caught is /ɔː/, coat is /əʊ/, hut is /ʌ/.", s: "s3" },
+    { q: "Which word contains the schwa?", o: ["cat", "about", "book", "bird"], a: 1, w: "The weak first syllable of about is /ə/.", s: "s3" },
+    { q: "Which word contains a diphthong?", o: ["bed", "day", "cup", "sit"], a: 1, w: "Day takes /eɪ/, two vowels in one syllable.", s: "s4" },
+    { q: "Which word contains a triphthong?", o: ["player", "play", "plain", "plea"], a: 0, w: "Player is /pleɪə/, three vowels in one syllable.", s: "s4" },
+    { q: "The diphthong in <b>now</b> is", o: ["/əʊ/", "/aʊ/", "/ɔɪ/", "/aɪ/"], a: 1, w: "Now glides from /a/ to /ʊ/.", s: "s4" },
+    { q: "The diphthong in <b>here</b> is", o: ["/ɪə/", "/eə/", "/ʊə/", "/eɪ/"], a: 0, w: "Here glides from /ɪ/ to /ə/.", s: "s4" },
+    { q: "Which sound is voiceless?", o: ["/b/", "/d/", "/t/", "/g/"], a: 2, w: "/t/ has no vibration of the vocal cords.", s: "s5" },
+    { q: "Which sound is voiced?", o: ["/f/", "/s/", "/v/", "/θ/"], a: 2, w: "/v/ is the voiced partner of /f/.", s: "s5" },
+    { q: "Which word begins with /θ/?", o: ["this", "think", "though", "there"], a: 1, w: "Think starts with the voiceless /θ/; the other three start with /ð/.", s: "s5" },
+    { q: "Which word ends with /ŋ/?", o: ["nine", "sing", "sign", "sin"], a: 1, w: "Sing ends in the nasal /ŋ/, with no hard g.", s: "s5" },
+    { q: "Which word begins with a three-consonant cluster?", o: ["street", "stop", "step", "seat"], a: 0, w: "Street begins /str/. Stop and step begin with two.", s: "s6" },
+    { q: "Which word ends with the /ɪz/ sound?", o: ["cats", "dogs", "buses", "books"], a: 2, w: "After a sibilant the plural adds a full syllable.", s: "s6" },
+    { q: "Which word ends with the /z/ sound?", o: ["cats", "dogs", "desks", "maps"], a: 1, w: "After a voiced sound the plural is /z/.", s: "s6" },
+    { q: "The plural ending in <b>cats</b> is", o: ["/s/", "/z/", "/ɪz/", "/əz/"], a: 0, w: "After the voiceless /t/, the plural is /s/.", s: "s6" },
+    { q: "Which pair rhymes?", o: ["love and move", "great and greet", "rain and train", "though and thought"], a: 2, w: "Rain and train share /eɪn/.", s: "s7" },
+    { q: "Which word rhymes with <b>though</b>?", o: ["through", "low", "thought", "tough"], a: 1, w: "Though and low both end /əʊ/.", s: "s7" },
+    { q: "Which pair are homophones?", o: ["write and right", "cat and cut", "ship and sheep", "peace and pace"], a: 0, w: "Both sound /raɪt/.", s: "s7" },
+    { q: "Which word is a homophone of <b>flour</b>?", o: ["floor", "flower", "flow", "flair"], a: 1, w: "Flour and flower both sound /ˈflaʊə/.", s: "s7" },
+    { q: "Which word rhymes with <b>great</b>?", o: ["greet", "grate", "weight", "grit"], a: 2, w: "Great and weight share /eɪt/.", s: "s7" },
+    { q: "The stress in <b>table</b> falls on", o: ["the first syllable", "the second syllable", "both syllables", "neither syllable"], a: 0, w: "Two-syllable nouns take stress on the first syllable.", s: "s8" },
+    { q: "The stress in <b>begin</b> falls on", o: ["the first syllable", "the second syllable", "the last consonant", "both syllables"], a: 1, w: "Two-syllable verbs take stress on the second syllable.", s: "s8" },
+    { q: "The stress in <b>economy</b> falls on", o: ["the first syllable", "the second syllable", "the third syllable", "the fourth syllable"], a: 1, w: "The -nomy ending pulls stress to the syllable before it: e-CON-o-my.", s: "s8" },
+    { q: "The stress in <b>photography</b> falls on", o: ["the first syllable", "the second syllable", "the third syllable", "the fourth syllable"], a: 1, w: "Pho-TO-graph-y.", s: "s8" },
+    { q: "The stress in <b>engineer</b> falls on", o: ["the first syllable", "the second syllable", "the last syllable", "no syllable"], a: 2, w: "The -eer ending takes the stress: engi-NEER.", s: "s8" },
+    { q: "Which word is stressed on the first syllable?", o: ["record, the verb", "object, the verb", "record, the noun", "present, the verb"], a: 2, w: "The noun keeps stress on the first syllable; the verb moves it.", s: "s8" },
+    { q: "Which pair is correctly matched for stress?", o: ["REcord, noun", "reCORD, noun", "REcord, verb", "reCORD, adjective"], a: 0, w: "The noun takes first-syllable stress.", s: "s8" },
+    { q: "The stress in <b>electricity</b> falls", o: ["on the first syllable", "just before -ity", "on the last syllable", "on -ity itself"], a: 1, w: "The -ity ending pulls stress to the syllable before it.", s: "s8" },
+    { q: "The stress in <b>blackbird</b> falls on", o: ["the first part", "the second part", "both parts equally", "neither part"], a: 0, w: "Compound nouns stress the first element.", s: "s8" },
+    { q: "In <b>Bola bought a RED car</b>, the emphatic stress answers", o: ["Did Bola buy a car?", "Did Bola buy a blue car?", "Did Bola sell the car?", "Did Ada buy a car?"], a: 1, w: "Red corrects the colour.", s: "s9" },
+    { q: "In <b>BOLA bought the car</b>, the emphatic stress answers", o: ["Did Ada buy the car?", "Did Bola steal the car?", "Did Bola buy a car?", "Was the car new?"], a: 0, w: "Bola corrects the person.", s: "s9" },
+    { q: "In <b>He LEFT the room</b>, the emphasis answers", o: ["Did he enter the room?", "Did she leave the room?", "Did he leave the house?", "Did he clean the room?"], a: 0, w: "Left contrasts with entered.", s: "s9" },
+    { q: "Emphatic stress is placed on", o: ["the last word of the sentence", "the word that carries the new or contrasted information", "the first word of the sentence", "every content word"], a: 1, w: "Find the contrast first, then stress that word.", s: "s9" },
+    { q: "Which word carries the emphasis in <b>I said SEVEN, not six</b>?", o: ["I", "said", "seven", "six"], a: 2, w: "Seven is the corrected number.", s: "s9" },
+    { q: "Which statement about the schwa is correct?", o: ["It is always stressed", "It appears in unstressed syllables", "It is a consonant", "It is a long vowel"], a: 1, w: "The schwa is the weak vowel of unstressed syllables.", s: "s3" },
+    { q: "Which word has two vowel sounds in one syllable?", o: ["boy", "bed", "book", "bird"], a: 0, w: "Boy takes the diphthong /ɔɪ/.", s: "s4" },
+    { q: "Which spelling group shows that letters and sounds differ?", o: ["cat, hat, mat", "cough, rough, through", "bed, red, led", "pin, bin, tin"], a: 1, w: "The same letters carry /ɒf/, /ʌf/ and /uː/.", s: "s2" },
+    { q: "A student says 'sikool' for school. The error is", o: ["a wrong consonant", "a vowel inserted into a cluster", "a wrong stress", "a missing plural"], a: 1, w: "School begins with /sk/, two consonants and no vowel between.", s: "s10" }
+  ]
+};
