@@ -196,3 +196,132 @@ window.QUIZ["phy:1"] = {
     { q: "The dimension of impulse is the same as", o: ["momentum", "force", "power", "energy"], a: 0, w: "Both are [MLT⁻¹].", s: "s11" }
   ]
 };
+
+window.QUIZ["bio:1"] = {
+  checks: {
+    s1: [
+      { q: "Which list gives all seven characteristics of living things?", o: ["Nutrition, respiration, excretion, growth, movement, reproduction, sensitivity", "Nutrition, respiration, digestion, growth, movement, reproduction, sensitivity", "Nutrition, breathing, excretion, growth, movement, reproduction, irritability", "Feeding, respiration, excretion, size, movement, reproduction, sensitivity"], a: 0, w: "Breathing is not a characteristic. Respiration is the release of energy from food, and digestion is not on the list." },
+      { q: "A leaf loses oxygen and water. Which characteristic does this show?", o: ["Nutrition", "Excretion", "Growth", "Sensitivity"], a: 1, w: "Excretion removes waste made by the organism's own metabolism." }
+    ],
+    s2: [
+      { q: "Why is a virus not placed among living organisms in this syllabus?", o: ["It is too small to see", "It has no nucleus", "It cannot feed, respire or reproduce without a host cell", "It has no protein"], a: 2, w: "A virus is not a cell and cannot carry out the seven processes alone." },
+      { q: "A crystal grows larger in a solution. Which statement is correct?", o: ["It is alive because it grows", "It is not alive because it grows by adding material from outside", "It is alive because it reproduces", "It is not alive because it has no nucleus"], a: 1, w: "Living things grow from inside by cell division." }
+    ],
+    s3: [
+      { q: "Which statement is part of the cell theory?", o: ["All cells have a nucleus", "New cells come from existing cells by division", "All cells have a cell wall", "Cells can form from non-living matter"], a: 1, w: "Cell theory says all living things are made of cells, the cell is the basic unit, and new cells come from existing cells." },
+      { q: "A cell appears 30 mm wide at a magnification of ×600. What is its actual width?", o: ["0.05 mm", "0.5 mm", "18 mm", "0.02 mm"], a: 0, w: "Actual size = image size ÷ magnification = 30 ÷ 600 = 0.05 mm." }
+    ],
+    s4: [
+      { q: "What is the function of the chloroplast?", o: ["It controls what enters the cell", "It traps light energy for photosynthesis", "It releases energy from glucose", "It stores cell sap"], a: 1, w: "The chloroplast holds chlorophyll, which traps light. The mitochondrion releases energy." },
+      { q: "Which statement about the plant cell wall is correct?", o: ["It is partially permeable and controls entry", "It is fully permeable and gives support", "It is made of protein and controls division", "It is the same structure as the cell membrane"], a: 1, w: "The wall is fully permeable; the membrane inside it controls entry." }
+    ],
+    s5: [
+      { q: "Which structure is found in an animal cell but rarely in a plant cell?", o: ["Centriole", "Chloroplast", "Large vacuole", "Cellulose wall"], a: 0, w: "Centrioles guide cell division and are typical of animal cells." },
+      { q: "How do animal cells store carbohydrate?", o: ["As starch", "As glycogen", "As cellulose", "As chlorophyll"], a: 1, w: "Plants store starch; animals store glycogen." }
+    ],
+    s6: [
+      { q: "Which pair of differences is correct for a plant cell only?", o: ["Cellulose wall and chloroplast", "Centriole and small vacuole", "No nucleus and no wall", "Glycogen store and rounded shape"], a: 0, w: "The wall and the chloroplast are the two plant-only structures in the comparison." },
+      { q: "Why does a root hair cell have no chloroplasts?", o: ["It is underground and receives no light", "It has no nucleus", "It stores glycogen", "It has a thick wall"], a: 0, w: "Without light there is nothing to trap, so chloroplasts would be useless. This is the named exception to the rule that plant cells are green." }
+    ],
+    s7: [
+      { q: "Which feature suits a red blood cell to carry oxygen?", o: ["A long tail", "No nucleus, so more room for haemoglobin", "Many chloroplasts", "Thick cellulose wall"], a: 1, w: "Losing the nucleus leaves space for haemoglobin and lets the cell change shape in a capillary." },
+      { q: "What is the job of a guard cell?", o: ["To absorb mineral salts", "To open and close the stoma", "To carry impulses", "To contract and move a bone"], a: 1, w: "Guard cells change shape and so open or close the stoma, which controls water loss." }
+    ],
+    s8: [
+      { q: "Which order is correct, from smallest to largest?", o: ["Cell, organ, tissue, system, organism", "Cell, tissue, organ, system, organism", "Tissue, cell, organ, organism, system", "Cell, tissue, system, organ, organism"], a: 1, w: "Cell, tissue, organ, system, organism. Each level is built from the one before." },
+      { q: "Why does the syllabus place Hydra at tissue level?", o: ["It is a single cell", "It has two tissue layers but no organ or system", "It has a cellulose wall", "It is a colony of organs"], a: 1, w: "Hydra has an outer epidermis and an inner gastrodermis. It has no organ and no system." }
+    ],
+    s9: [
+      { q: "How does Euglena move?", o: ["With cilia", "With pseudopodia", "With one flagellum", "With two flagella"], a: 2, w: "Euglena has one flagellum. Chlamydomonas has two." },
+      { q: "Why does a paramecium in fresh water need contractile vacuoles?", o: ["To store food", "To remove water that enters by osmosis", "To trap light", "To make chlorophyll"], a: 1, w: "Water enters the cell by osmosis, so the vacuoles fill and empty to keep the cell from bursting." }
+    ],
+    s10: [
+      { q: "A question asks where light energy is trapped in a leaf cell. Which answer is right?", o: ["Chlorophyll", "Chloroplast", "Cell wall", "Vacuole"], a: 1, w: "The chloroplast is the structure. Chlorophyll is the pigment inside it." },
+      { q: "Which statement about the cell membrane is correct?", o: ["It is fully permeable", "It is partially permeable and controls entry", "It is made of cellulose", "It lies outside the cell wall"], a: 1, w: "The membrane is partially permeable. The cellulose wall lies outside it and is fully permeable." }
+    ]
+  },
+  cards: [
+    { q: "State the seven characteristics of living things.", a: "Nutrition, respiration, excretion, growth, movement, reproduction and sensitivity." },
+    { q: "Give the one-line definition of a living thing.", a: "It carries out nutrition, respiration, excretion, growth, movement, reproduction and sensitivity." },
+    { q: "Excretion against egestion", a: "Excretion removes metabolic waste such as carbon dioxide and urea. Egestion removes undigested food that never entered the cells." },
+    { q: "Why is movement not proof of life?", a: "A car moves but does not respire, grow by cell division or reproduce." },
+    { q: "Why is a virus not treated as a living organism here?", a: "It is not a cell. It cannot feed, respire or reproduce without a host." },
+    { q: "How does a living thing grow?", a: "From inside, by cell division and cell enlargement." },
+    { q: "How does a crystal grow?", a: "From outside, by adding material. It is not alive." },
+    { q: "State the three points of cell theory.", a: "All living things are made of cells. The cell is the basic unit of structure and function. New cells come from existing cells." },
+    { q: "Who named the cell, and when?", a: "Robert Hooke, in 1665, after seeing cork cells." },
+    { q: "Who first saw living cells?", a: "Antonie van Leeuwenhoek, with a simple lens." },
+    { q: "Who found the nucleus?", a: "Robert Brown." },
+    { q: "Magnification formula", a: "Magnification = image size ÷ actual size." },
+    { q: "Actual size formula", a: "Actual size = image size ÷ magnification." },
+    { q: "Magnification against resolution", a: "Magnification makes the image larger. Resolution makes two close points look separate." },
+    { q: "Highest useful magnification: light and electron microscope", a: "About ×1500 for light, about ×500 000 for electron." },
+    { q: "Resolution: light and electron microscope", a: "About 200 nm for light, about 0.5 nm for electron." },
+    { q: "Why must a specimen be dead for an electron microscope?", a: "The specimen sits in a vacuum and the beam damages living material." },
+    { q: "Name the three structures a plant cell has that an animal cell lacks.", a: "Cellulose cell wall, chloroplasts and a large permanent vacuole." },
+    { q: "Function of the cell wall", a: "Support and protection. It is fully permeable and made of cellulose." },
+    { q: "Function of the cell membrane", a: "Controls what enters and leaves. It is partially permeable." },
+    { q: "Function of the nucleus", a: "Controls the activities of the cell and holds the genes." },
+    { q: "Function of the mitochondrion", a: "Releases energy from glucose by respiration." },
+    { q: "Function of the vacuole", a: "Stores water, sugar and salts, and gives turgor pressure." },
+    { q: "What is turgor?", a: "The pressure of the vacuole against the cell wall. It keeps the plant firm." },
+    { q: "What is plasmolysis?", a: "The cell loses water, the vacuole shrinks and the membrane pulls away from the wall." },
+    { q: "What is the centriole for, and where is it found?", a: "It guides cell division. It is typical of animal cells." },
+    { q: "Storage carbohydrate in plants and in animals", a: "Starch in plants, glycogen in animals." },
+    { q: "State five parts shared by plant and animal cells.", a: "Membrane, cytoplasm, nucleus, mitochondria and ribosomes." },
+    { q: "Give the five levels of organisation in order.", a: "Cell, tissue, organ, system, organism." },
+    { q: "Syllabus example at each level", a: "Cell: Euglena or Paramecium. Tissue: epithelial tissue or Hydra. Organ: onion bulb. System: reproductive, digestive or excretory. Organism: Chlamydomonas." },
+    { q: "Why is Hydra at tissue level?", a: "It has two tissue layers but no organ and no system." },
+    { q: "Why is an onion bulb an organ?", a: "It is built from fleshy leaf scales, a stem plate and roots, so several tissues work together." },
+    { q: "How does Euglena move?", a: "With one flagellum." },
+    { q: "How does Paramecium move?", a: "With cilia over the whole body." },
+    { q: "How does Amoeba move and feed?", a: "With pseudopodia. It engulfs food by phagocytosis." },
+    { q: "How does Chlamydomonas move?", a: "With two flagella." },
+    { q: "What does the Euglena eyespot do?", a: "It detects the direction and strength of light. It does not form an image." },
+    { q: "Why is Euglena unusual?", a: "It has chlorophyll and photosynthesises, but it has no cellulose wall and can also absorb dissolved food." },
+    { q: "Why does a fresh-water Paramecium need contractile vacuoles?", a: "Water enters by osmosis. The vacuoles fill and empty to stop the cell bursting." },
+    { q: "Give one feature and one job for a root hair cell.", a: "A long thin extension gives a large surface for absorbing water and mineral salts." }
+  ],
+  exam: [
+    { q: "The seven characteristics of living things include all of these except", o: ["excretion", "respiration", "digestion", "sensitivity"], a: 2, w: "Digestion is a process inside nutrition. It is not one of the seven.", s: "s1" },
+    { q: "A student says a burning candle is alive because it gives out heat and light. Which reply is correct?", o: ["Heat and light are signs of respiration", "The candle does not grow by cell division or reproduce", "The candle respires without oxygen", "The candle excretes water"], a: 1, w: "None of the seven processes is carried out by a candle.", s: "s2" },
+    { q: "Which process removes urea from the body?", o: ["Egestion", "Excretion", "Secretion", "Digestion"], a: 1, w: "Urea is metabolic waste, so its removal is excretion.", s: "s1" },
+    { q: "A virus differs from a bacterium because a virus", o: ["has a nucleus", "is not a cell and needs a host to reproduce", "has a cell wall of cellulose", "can photosynthesise"], a: 1, w: "A virus has a protein coat and nucleic acid, and reproduces only inside a host.", s: "s2" },
+    { q: "Which statement about growth is correct?", o: ["Living things grow by adding material to the outside", "Living things grow from inside by cell division", "Only animals grow", "Growth is not a characteristic of life"], a: 1, w: "Cell division and enlargement add cells from inside. A crystal adds material outside.", s: "s2" },
+    { q: "Cell theory states that", o: ["all cells contain chloroplasts", "all living things are made of cells and new cells come from existing cells", "all cells have a wall", "cells form from non-living matter"], a: 1, w: "The three points cover structure, the basic unit and the origin of new cells.", s: "s3" },
+    { q: "Robert Hooke named the cell after examining", o: ["pond water", "cork", "blood", "onion skin"], a: 1, w: "Hooke saw the empty boxes in cork in 1665.", s: "s3" },
+    { q: "A cell is 0.02 mm wide and is drawn 10 mm wide. The magnification is", o: ["×200", "×500", "×50", "×2000"], a: 1, w: "10 ÷ 0.02 = 500.", s: "s3" },
+    { q: "An image is 60 mm wide at ×1500. The actual width is", o: ["0.04 mm", "0.4 mm", "25 mm", "0.004 mm"], a: 0, w: "60 ÷ 1500 = 0.04 mm.", s: "s3" },
+    { q: "The advantage of the electron microscope over the light microscope is", o: ["it shows natural colour", "it gives better resolution", "it can view living cells", "it is cheaper"], a: 1, w: "Its shorter wavelength gives resolution near 0.5 nm.", s: "s3" },
+    { q: "Which structure is fully permeable?", o: ["Cell membrane", "Nuclear membrane", "Cellulose cell wall", "Vacuole membrane"], a: 2, w: "The wall has large gaps and lets most substances pass. Only membranes control entry.", s: "s4" },
+    { q: "Turgor pressure is produced by", o: ["the nucleus pressing on the wall", "the vacuole pressing on the cell wall", "chloroplasts dividing", "the membrane contracting"], a: 1, w: "A full vacuole pushes outward on the wall and keeps the cell firm.", s: "s4" },
+    { q: "Which organelle releases energy from glucose?", o: ["Chloroplast", "Ribosome", "Mitochondrion", "Golgi body"], a: 2, w: "Respiration happens in the mitochondrion. The chloroplast traps light.", s: "s4" },
+    { q: "Protein is built at the", o: ["ribosome", "vacuole", "centriole", "cell wall"], a: 0, w: "Ribosomes are the site of protein synthesis.", s: "s4" },
+    { q: "Which pair is found only in a plant cell?", o: ["Mitochondrion and ribosome", "Chloroplast and cellulose wall", "Nucleus and cytoplasm", "Golgi body and membrane"], a: 1, w: "These two are the plant-only structures in the standard comparison.", s: "s6" },
+    { q: "An animal cell differs from a plant cell because it", o: ["has no nucleus", "stores glycogen and has no cellulose wall", "has no membrane", "has no cytoplasm"], a: 1, w: "Animal cells store glycogen and lack the wall, chloroplasts and large vacuole.", s: "s5" },
+    { q: "Centrioles are typical of", o: ["plant cells", "animal cells", "bacteria", "red blood cells"], a: 1, w: "Centrioles guide division and are usual in animal cells.", s: "s5" },
+    { q: "A root hair cell has no chloroplasts because", o: ["it is too small", "it is underground and receives no light", "it has no nucleus", "it stores water"], a: 1, w: "Chloroplasts would be useless without light.", s: "s6" },
+    { q: "A palisade cell is suited to photosynthesis because it", o: ["has many chloroplasts near the leaf surface", "has no nucleus", "has a thick wall", "has cilia"], a: 0, w: "Many chloroplasts close to the light give the highest rate.", s: "s7" },
+    { q: "A red blood cell carries more oxygen because it", o: ["has a large vacuole", "has no nucleus, leaving room for haemoglobin", "has many mitochondria", "has a cellulose wall"], a: 1, w: "The nucleus is lost during development, so haemoglobin fills the cell.", s: "s7" },
+    { q: "Guard cells control", o: ["the opening of the stoma", "the making of starch", "the movement of water up the root", "the colour of the leaf"], a: 0, w: "Their change in shape opens or closes the stoma and so controls water loss.", s: "s7" },
+    { q: "The correct order of organisation is", o: ["organ, tissue, cell, system, organism", "cell, tissue, organ, system, organism", "cell, organ, tissue, system, organism", "tissue, cell, organ, system, organism"], a: 1, w: "Each level is built from the level before it.", s: "s8" },
+    { q: "Hydra is used in the syllabus as an example of", o: ["a cell", "a tissue", "an organ", "a system"], a: 1, w: "Hydra has two tissue layers but no organ or system.", s: "s8" },
+    { q: "An onion bulb is an example of", o: ["a cell", "a tissue", "an organ", "a system"], a: 2, w: "Leaf scales, a stem plate and roots are several tissues working together.", s: "s8" },
+    { q: "Chlamydomonas is given in the syllabus as an example of", o: ["a tissue", "an organ", "an organism", "a system"], a: 2, w: "It is a single cell that carries out all seven processes, so it is a whole organism.", s: "s8" },
+    { q: "Epithelial tissue is an example of", o: ["a cell", "a tissue", "an organ", "a system"], a: 1, w: "A sheet of similar cells covering a surface is a tissue.", s: "s8" },
+    { q: "The digestive, reproductive and excretory systems are examples of", o: ["organs", "tissues", "systems", "cells"], a: 2, w: "Several organs working together form a system.", s: "s8" },
+    { q: "Euglena moves with", o: ["cilia", "one flagellum", "two flagella", "pseudopodia"], a: 1, w: "One flagellum pulls the cell through water.", s: "s9" },
+    { q: "The eyespot of Euglena", o: ["forms an image", "detects light direction and strength", "stores food", "removes water"], a: 1, w: "It is a light-sensitive patch, not an eye.", s: "s9" },
+    { q: "Paramecium sweeps food into its oral groove with", o: ["cilia", "flagella", "pseudopodia", "root hairs"], a: 0, w: "Cilia cover the body and beat to move food and the cell itself.", s: "s9" },
+    { q: "Amoeba feeds by", o: ["photosynthesis", "phagocytosis with pseudopodia", "cilia", "absorption through a wall"], a: 1, w: "It surrounds the food with pseudopodia and digests it in a food vacuole.", s: "s9" },
+    { q: "Contractile vacuoles are needed in fresh-water protozoa because", o: ["food enters by osmosis", "water enters by osmosis", "salts leave by diffusion", "oxygen enters by active transport"], a: 1, w: "Water enters the cell, and the vacuole removes the excess.", s: "s9" },
+    { q: "Chlamydomonas has", o: ["one flagellum and no wall", "two flagella and a cup-shaped chloroplast", "cilia and a macronucleus", "pseudopodia and an eyespot"], a: 1, w: "Two flagella, a cup-shaped chloroplast and a cell wall.", s: "s9" },
+    { q: "Which organism has no cellulose wall but does photosynthesise?", o: ["Chlamydomonas", "Euglena", "Paramecium", "Amoeba"], a: 1, w: "Euglena has chlorophyll but a pellicle instead of a cellulose wall.", s: "s9" },
+    { q: "Which structure controls the activities of the cell?", o: ["Vacuole", "Nucleus", "Ribosome", "Wall"], a: 1, w: "The nucleus holds the genes that direct the cell.", s: "s4" },
+    { q: "Two organelles that carry their own DNA are the", o: ["nucleus and ribosome", "mitochondrion and chloroplast", "vacuole and wall", "Golgi body and membrane"], a: 1, w: "Both carry a small circular DNA of their own.", s: "s4" },
+    { q: "A plant wilts because", o: ["the walls dissolve", "cells lose water and turgor falls", "chloroplasts leave the cell", "the nucleus shrinks"], a: 1, w: "Loss of water lowers turgor and the leaf droops.", s: "s4" },
+    { q: "Which statement about the nucleus of a red blood cell is correct?", o: ["It is large and central", "It is lost as the cell matures", "It divides often", "It holds chloroplasts"], a: 1, w: "The mature red blood cell has no nucleus.", s: "s7" },
+    { q: "The cell membrane is described as partially permeable because it", o: ["lets every substance pass", "lets some substances pass and not others", "is made of cellulose", "is found only in plants"], a: 1, w: "It controls entry by size and by transport proteins.", s: "s10" },
+    { q: "Which line correctly pairs a structure with its function?", o: ["Chloroplast: releases energy from glucose", "Mitochondrion: traps light energy", "Ribosome: builds protein", "Vacuole: controls entry to the cell"], a: 2, w: "Ribosomes build protein. The other three pairings are swapped.", s: "s10" }
+  ]
+};

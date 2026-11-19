@@ -416,3 +416,184 @@ window.NOTES["phy:1"] = {
 <p>Density and relative density are not in this topic. The syllabus puts them under Liquids at Rest, where they belong with upthrust.</p>
 `
 };
+
+window.NOTES["bio:1"] = {
+  kicker: "Biology \u00b7 Topic 1",
+  title: "Living Organisms, Cells and Levels of Organisation",
+  sub: "MRS GREN, cell structure, plant against animal cell, the five levels",
+  words: 2175,
+  lede: "Biology starts with one question: what is alive, and what is it made of? This topic gives the seven signs of life, the parts of a plant and an animal cell with one job each, and the five steps from a single cell to a whole organism. The syllabus names an example at every step, and the example is the mark.",
+  toc: [
+    ["s0", "How to use this page"],
+    ["s1", "What makes something alive"],
+    ["s2", "Living and non-living"],
+    ["s3", "Cells and the microscope"],
+    ["s4", "The plant cell"],
+    ["s5", "The animal cell"],
+    ["s6", "Plant cell against animal cell"],
+    ["s7", "Specialised cells"],
+    ["s8", "The five levels of organisation"],
+    ["s9", "Unicellular organisms"],
+    ["s10", "Traps and coverage"]
+  ],
+  html: `<h2 id="s0">How to use this page</h2>
+<p>This topic looks easy and scores badly. The syllabus asks four things: tell living from non-living, name the parts of a plant and an animal cell, say what each part does, and place the five levels of organisation in order with the right example. Every question on the paper comes from one of those four.</p>
+<div class="entry"><span class="n num">01</span><div><h4>Say MRS GREN out loud</h4><p>Seven letters, seven characteristics: Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition. Say the letters, then the word each letter stands for. Do it once a day for a week and you cannot lose the list.</p></div></div>
+<div class="entry"><span class="n num">02</span><div><h4>Draw the cell twice</h4><p>Draw a plant cell from the page. Close the page. Draw it again from memory. Compare. The parts you forget are the parts you will be asked about.</p></div></div>
+<div class="entry"><span class="n num">03</span><div><h4>One verb per organelle</h4><p>Do not learn the function as a sentence. Learn one verb: nucleus <b>controls</b>, mitochondrion <b>releases</b>, chloroplast <b>traps</b>, vacuole <b>stores</b>, wall <b>supports</b>, membrane <b>controls entry</b>. The exam answer is that verb plus one detail.</p></div></div>
+<div class="entry"><span class="n num">04</span><div><h4>Walk the five levels</h4><p>Use your own body as the palace. A cell is one brick of your skin. A tissue is the sheet of bricks. An organ is your stomach. A system is your gut with its glands. The organism is you. Say the walk once, then name the syllabus example for each step.</p></div></div>
+<div class="warn"><span class="wl">How the checks work</span><p>Each section ends with two questions. Answer both before you move on. Two wrong answers mean you re-read the section, not the whole page. Tick the topic on Week only when all ten sections hold.</p></div>
+
+<h2 id="s1">What makes something alive</h2>
+<p>A living thing carries out seven processes. Miss one and the definition is incomplete, because each process answers a separate need: fuel, energy, safety, size, continuity, waste and repair.</p>
+<div class="tw"><table>
+<tr><th>Characteristic</th><th>What it means</th><th>Example in a named organism</th></tr>
+<tr><td>Movement</td><td>A change of position, or a movement inside the body</td><td>Amoeba pushes out a pseudopodium. A plant turns its leaf toward light.</td></tr>
+<tr><td>Respiration</td><td>Breakdown of food to release energy, with or without oxygen</td><td>Glucose breaks down in the mitochondrion of a muscle cell.</td></tr>
+<tr><td>Sensitivity</td><td>Detecting a change and responding to it. Also called irritability.</td><td>Euglena swims toward light with its eyespot.</td></tr>
+<tr><td>Growth</td><td>A permanent increase in size or mass, by cell division and enlargement</td><td>A seedling adds new cells at the tip of the shoot.</td></tr>
+<tr><td>Reproduction</td><td>Producing new individuals, sexually or asexually</td><td>Paramecium divides into two by binary fission.</td></tr>
+<tr><td>Excretion</td><td>Removing waste made by the organism's own metabolism</td><td>A leaf loses oxygen and water; a kidney removes urea.</td></tr>
+<tr><td>Nutrition</td><td>Taking in and using food for energy, growth and repair</td><td>A green plant photosynthesises. A cow eats grass.</td></tr>
+</table></div>
+<div class="def"><span class="dl">The one-line answer</span><p>A living thing carries out nutrition, respiration, excretion, growth, movement, reproduction and sensitivity.</p></div>
+<p>Excretion is not the same as egestion. Excretion removes waste from chemical reactions inside the body, such as carbon dioxide and urea. Egestion removes undigested food that never entered the cells. A question that names faeces is testing that difference.</p>
+<p>Movement is not proof of life on its own. A car moves and a river flows. Neither respires, grows by cell division, or reproduces. Always test the full set, never one sign.</p>
+
+<h2 id="s2">Living and non-living</h2>
+<p>Non-living things may show one or two signs of life. They never show all seven at once, and they never grow by adding cells.</p>
+<div class="tw"><table>
+<tr><th>Test</th><th>Living thing</th><th>Non-living thing</th></tr>
+<tr><td>Structure</td><td>Made of cells with cytoplasm and a membrane</td><td>No cells</td></tr>
+<tr><td>Growth</td><td>From inside, by cell division</td><td>From outside, by adding material, as a crystal does</td></tr>
+<tr><td>Respiration</td><td>Releases energy from food</td><td>No respiration</td></tr>
+<tr><td>Response</td><td>Responds as a whole to a stimulus</td><td>Reacts by a physical law only, as iron rusts</td></tr>
+<tr><td>Reproduction</td><td>Produces offspring of the same kind</td><td>Cannot reproduce</td></tr>
+<tr><td>Excretion</td><td>Removes its own metabolic waste</td><td>No metabolism, so no waste</td></tr>
+</table></div>
+<div class="warn"><span class="wl">The virus question</span><p>A virus is not placed with living things in this syllabus. It has a protein coat and a nucleic acid, and it can only reproduce inside a host cell. It does not feed, respire or excrete on its own. Say this if the paper asks: a virus is not a cell, so it is not a living organism in the five-kingdom sense.</p></div>
+
+<h2 id="s3">Cells and the microscope</h2>
+<p>The cell is the smallest unit that can carry out all seven processes. Two ideas support this: the cell theory and the instrument that made cells visible.</p>
+<div class="def"><span class="dl">Cell theory, three points</span><p>All living things are made of cells. The cell is the basic unit of structure and function. New cells come from existing cells by division.</p></div>
+<p>Robert Hooke saw cork cells in 1665 and gave them the name. Antonie van Leeuwenhoek saw the first living cells with a simple lens. Robert Brown found the nucleus. The names are worth one mark in some years, so keep them with the dates.</p>
+<h4>Magnification and resolution</h4>
+<p>Magnification makes an image larger. Resolution makes two close points look separate. A blurred image can have high magnification and poor resolution, which is why the electron microscope beat the light microscope.</p>
+<div class="tw"><table>
+<tr><th>Feature</th><th>Light microscope</th><th>Electron microscope</th></tr>
+<tr><td>Radiation</td><td>Visible light</td><td>Electron beam</td></tr>
+<tr><td>Highest useful magnification</td><td>About ×1500</td><td>About ×500 000</td></tr>
+<tr><td>Resolution</td><td>About 200 nm</td><td>About 0.5 nm</td></tr>
+<tr><td>Colour</td><td>Natural colour with stain</td><td>Black and white image</td></tr>
+<tr><td>Living material</td><td>Can be seen alive</td><td>Must be dead and dried in a vacuum</td></tr>
+</table></div>
+<div class="ex"><div class="ex-h">Worked example · magnification</div><div class="ex-b">
+<p>A cell appears 40 mm wide under a microscope. The real cell is 0.05 mm wide. What is the magnification?</p>
+<p>Magnification = image size ÷ actual size = 40 ÷ 0.05 = <strong>×800</strong>.</p>
+<p>Keep both lengths in the same unit before you divide. Mixing mm and µm is the usual lost mark.</p>
+</div></div>
+<div class="def"><span class="dl">Actual size, rearranged</span><p>Actual size = image size ÷ magnification. Image size = actual size × magnification.</p></div>
+
+<h2 id="s4">The plant cell</h2>
+<p>A plant cell has every part an animal cell has, plus three structures that animal cells lack: a cellulose wall, chloroplasts and a large permanent vacuole.</p>
+<div class="tw"><table>
+<tr><th>Part</th><th>Structure</th><th>Function, in one verb</th></tr>
+<tr><td>Cell wall</td><td>Rigid layer of cellulose outside the membrane</td><td>Supports and protects the cell; keeps its shape when the vacuole is full</td></tr>
+<tr><td>Cell membrane</td><td>Thin, partially permeable layer inside the wall</td><td>Controls what enters and leaves</td></tr>
+<tr><td>Cytoplasm</td><td>Jelly that fills the cell</td><td>Holds the organelles and carries out reactions</td></tr>
+<tr><td>Nucleus</td><td>Dense body with a membrane and chromatin</td><td>Controls the activities of the cell and holds the genes</td></tr>
+<tr><td>Chloroplast</td><td>Green oval body containing chlorophyll</td><td>Traps light energy for photosynthesis</td></tr>
+<tr><td>Mitochondrion</td><td>Rod-shaped body with folded inner membrane</td><td>Releases energy from glucose by respiration</td></tr>
+<tr><td>Vacuole</td><td>Large sac filled with cell sap</td><td>Stores water, sugar and salts; gives turgor pressure</td></tr>
+<tr><td>Ribosome</td><td>Tiny granule, free or on the endoplasmic reticulum</td><td>Builds protein</td></tr>
+<tr><td>Endoplasmic reticulum</td><td>Folded membranes joined to the nuclear membrane</td><td>Transports materials through the cell</td></tr>
+<tr><td>Golgi body</td><td>Stack of flattened sacs</td><td>Packages and secretes substances</td></tr>
+</table></div>
+<p>Turgor is the pressure of the vacuole against the wall. Full turgor keeps a leaf firm. Loss of water makes the cell flaccid, then plasmolysed, and the plant wilts. This one link explains why a plant droops without a single physics formula.</p>
+<div class="warn"><span class="wl">Two traps</span><p>The cell wall is not the cell membrane, and the wall is fully permeable, not partially permeable. The nucleus is not the only part that holds DNA; mitochondria and chloroplasts carry a little of their own.</p></div>
+
+<h2 id="s5">The animal cell</h2>
+<p>The animal cell has the same working parts, without a wall, without chloroplasts, and with small, temporary vacuoles.</p>
+<div class="tw"><table>
+<tr><th>Part</th><th>Function</th><th>Plant cell</th><th>Animal cell</th></tr>
+<tr><td>Cell wall</td><td>Support</td><td>Present, cellulose</td><td>Absent</td></tr>
+<tr><td>Chloroplast</td><td>Photosynthesis</td><td>Present in green parts</td><td>Absent</td></tr>
+<tr><td>Vacuole</td><td>Storage</td><td>One large, permanent</td><td>Many small, temporary</td></tr>
+<tr><td>Centriole</td><td>Guides cell division</td><td>Rarely present</td><td>Present</td></tr>
+<tr><td>Shape</td><td>Form</td><td>Fixed, angular</td><td>Variable, rounded</td></tr>
+<tr><td>Food store</td><td>Reserve</td><td>Starch</td><td>Glycogen</td></tr>
+</table></div>
+<p>Both cells share the membrane, cytoplasm, nucleus, mitochondria, ribosomes, endoplasmic reticulum and Golgi body. A comparison question wants the shared parts first, then the differences, then a reason for each difference. The wall explains the fixed shape. Chloroplasts explain why an animal must eat. The large vacuole explains turgor.</p>
+
+<h2 id="s6">Plant cell against animal cell</h2>
+<p>Write the comparison in three lines, never as a scatter of facts.</p>
+<div class="tw"><table>
+<tr><th>Question asked</th><th>Plant cell</th><th>Animal cell</th></tr>
+<tr><td>Has a wall?</td><td>Yes, cellulose</td><td>No</td></tr>
+<tr><td>Makes its own food?</td><td>Yes, by chloroplasts</td><td>No, it feeds on others</td></tr>
+<tr><td>Shape?</td><td>Regular and fixed</td><td>Irregular and changeable</td></tr>
+<tr><td>Vacuole?</td><td>One large central sac</td><td>Small and scattered</td></tr>
+<tr><td>Storage carbohydrate?</td><td>Starch</td><td>Glycogen</td></tr>
+<tr><td>Nucleus position?</td><td>Pushed to the side by the vacuole</td><td>Usually central</td></tr>
+</table></div>
+<div class="warn"><span class="wl">The exception they test</span><p>Not every plant cell is green. Root cells have no chloroplasts. Not every animal cell lacks a vacuole; fat cells store large droplets. State the rule, then allow the exception in one clause.</p></div>
+
+<h2 id="s7">Specialised cells</h2>
+<p>A cell that does one job well loses the ability to do other jobs. Shape follows function, and the exam asks you to prove it.</p>
+<div class="tw"><table>
+<tr><th>Cell</th><th>Special feature</th><th>Job</th></tr>
+<tr><td>Root hair cell</td><td>Long thin extension, no chloroplasts</td><td>Absorbs water and mineral salts over a large surface</td></tr>
+<tr><td>Palisade cell</td><td>Many chloroplasts, near the leaf surface</td><td>Traps light for photosynthesis</td></tr>
+<tr><td>Guard cell</td><td>Bean-shaped, thick inner wall</td><td>Opens and closes the stoma to control water loss</td></tr>
+<tr><td>Red blood cell</td><td>No nucleus, biconcave disc</td><td>Carries oxygen on haemoglobin</td></tr>
+<tr><td>Nerve cell</td><td>Long fibre with branches</td><td>Carries impulses quickly</td></tr>
+<tr><td>Sperm cell</td><td>Tail and many mitochondria</td><td>Swims to the egg and supplies energy</td></tr>
+<tr><td>Ciliated cell</td><td>Hair-like cilia on one surface</td><td>Moves mucus and dust out of the airway</td></tr>
+<tr><td>Muscle cell</td><td>Elongated, with many mitochondria</td><td>Contracts to produce movement</td></tr>
+</table></div>
+<p>Read the table backwards for revision. Given the job, name the cell and the feature that makes the job possible. That is exactly how the question is written.</p>
+
+<h2 id="s8">The five levels of organisation</h2>
+<p>Cells build tissues, tissues build organs, organs build systems, and systems build the organism. The syllabus names one example at each level, and the example is the mark.</p>
+<div class="tw"><table>
+<tr><th>Level</th><th>Definition</th><th>Syllabus example</th></tr>
+<tr><td>Cell</td><td>The smallest living unit</td><td>Euglena, Paramecium</td></tr>
+<tr><td>Tissue</td><td>A group of similar cells doing one job</td><td>Epithelial tissue; Hydra</td></tr>
+<tr><td>Organ</td><td>Several tissues working together</td><td>Onion bulb</td></tr>
+<tr><td>System</td><td>Several organs working together</td><td>Reproductive, digestive and excretory systems</td></tr>
+<tr><td>Organism</td><td>A complete living thing</td><td>Chlamydomonas</td></tr>
+</table></div>
+<p>Hydra is the awkward one. It has two tissue layers, an outer epidermis and an inner gastrodermis, but no organs and no system. That is why the syllabus places it at tissue level. An onion bulb is an organ because it is built from fleshy leaf scales, a stem plate and roots.</p>
+<div class="def"><span class="dl">Why the order matters</span><p>Each level adds a new property that the level below cannot show. A tissue can cover a surface. Only an organ can secrete and absorb at once. Only a system can move food along a tube.</p></div>
+<p>Unicellular organisms stop at the first level. Euglena, Paramecium and Chlamydomonas are single cells, yet each carries out all seven processes inside that one cell. That is why they are cells and organisms at the same time.</p>
+
+<h2 id="s9">Unicellular organisms</h2>
+<p>The paper names four: Euglena, Paramecium, Amoeba and Chlamydomonas. Learn each by movement, food and water balance.</p>
+<div class="tw"><table>
+<tr><th>Organism</th><th>Movement</th><th>Nutrition</th><th>Water balance</th></tr>
+<tr><td>Euglena</td><td>One flagellum</td><td>Green, makes food; can also absorb it</td><td>Contractile vacuole</td></tr>
+<tr><td>Paramecium</td><td>Cilia all over the body</td><td>Feeds on bacteria through an oral groove</td><td>Two contractile vacuoles</td></tr>
+<tr><td>Amoeba</td><td>Pseudopodia, false feet</td><td>Engulfs food by phagocytosis</td><td>One contractile vacuole</td></tr>
+<tr><td>Chlamydomonas</td><td>Two flagella</td><td>Green, cup-shaped chloroplast</td><td>Contractile vacuole</td></tr>
+</table></div>
+<p>Euglena is the favourite question because it breaks the rules. It has chlorophyll and an eyespot, so it photosynthesises and swims toward light, yet it has no cellulose wall and can live on dissolved food. The eyespot does not see an image; it detects the direction and strength of light.</p>
+<p>The contractile vacuole fills, then empties to the outside. In fresh water, water enters the cell by osmosis, so the vacuole must work all the time. A paramecium in salt water would not need it.</p>
+
+<h2 id="s10">Traps and coverage</h2>
+<p>Most lost marks in this topic come from four small errors.</p>
+<div class="entry"><span class="n num">01</span><div><h4>Seven, not six</h4><p>Nutrition, respiration, excretion, growth, movement, reproduction and sensitivity. Students drop sensitivity because it is the least visible.</p></div></div>
+<div class="entry"><span class="n num">02</span><div><h4>Wall and membrane</h4><p>The wall is outside and fully permeable. The membrane is inside and partially permeable. Only the membrane controls entry.</p></div></div>
+<div class="entry"><span class="n num">03</span><div><h4>Chloroplast is not chlorophyll</h4><p>The chloroplast is the structure. Chlorophyll is the green pigment inside it. A question that asks where light is trapped wants the chloroplast.</p></div></div>
+<div class="entry"><span class="n num">04</span><div><h4>Levels in order</h4><p>Cell, tissue, organ, system, organism. Never start at tissue or put organism before system. Write the five on the margin before you answer.</p></div></div>
+<div class="tw"><table>
+<tr><th>Syllabus objective</th><th>Where it is answered</th></tr>
+<tr><td>Differentiate living from non-living</td><td>s1, s2</td></tr>
+<tr><td>Identify the structures of plant and animal cells</td><td>s4, s5</td></tr>
+<tr><td>Analyse the functions of cell components</td><td>s4, s5</td></tr>
+<tr><td>Compare and contrast plant and animal cells</td><td>s5, s6</td></tr>
+<tr><td>Trace the five levels of organisation</td><td>s8</td></tr>
+</table></div>
+<p>Everything on this page comes from the syllabus. Nothing outside it is kept: no biochemistry of the Krebs cycle, no detailed membrane transport models, no history beyond the three names that carry marks. The next topic, Evolution Among Organisms, takes up the kingdoms.</p>
+`
+};
+

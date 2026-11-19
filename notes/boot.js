@@ -28,22 +28,28 @@
   /* ---------- list ---------- */
   function listView() {
     var keys = Object.keys(N);
+    var groups = { phy: "Physics", mat: "Mathematics", bio: "Biology", eng: "English" };
+    var order = ["phy", "mat", "bio", "eng"];
     var h = '<div class="tools"><span class="count">' + keys.length + " notes &middot; " +
       keys.filter(read).length + " read</span></div>";
     h += '<div class="stack">';
-    h += '<div class="sec"><div class="sec-h"><h2>Physics</h2><span>' +
-      keys.length + " written</span></div>" + keys.map(function (k, i) {
-        var n = N[k], q = Q[k] || {}, done = read(k);
-        return '<button class="nlist" data-note="open" data-key="' + k + '">' +
-          '<span class="nlist-n num">' + ("0" + (i + 1)).slice(-2) + "</span>" +
-          '<span class="nlist-b"><span class="nlist-t">' + esc(n.title) + "</span>" +
-          '<span class="nlist-s">' + esc(n.sub) + "</span></span>" +
-          '<span class="nlist-m num">' + n.words + " words" + (done ? " &middot; read" : "") +
-          "</span></button>";
-      }).join("") + "</div>";
+    order.forEach(function (g) {
+      var mine = keys.filter(function (k) { return k.indexOf(g + ":") === 0; });
+      if (!mine.length) return;
+      h += '<div class="sec"><div class="sec-h"><h2>' + groups[g] + "</h2><span>" +
+        mine.length + (mine.length === 1 ? " topic" : " topics") + "</span></div>" +
+        mine.map(function (k) {
+          var n = N[k], done = read(k), id = k.split(":")[1];
+          return '<button class="nlist" data-note="open" data-key="' + k + '">' +
+            '<span class="nlist-n num">' + ("0" + id).slice(-2) + "</span>" +
+            '<span class="nlist-b"><span class="nlist-t">' + esc(n.title) + "</span>" +
+            '<span class="nlist-s">' + esc(n.sub) + "</span></span>" +
+            '<span class="nlist-m num">' + n.words + " words" + (done ? " &middot; read" : "") +
+            "</span></button>";
+        }).join("") + "</div>";
+    });
     h += '<div class="sec"><div class="sec-h"><h2>Not written yet</h2><span>rest of the plan</span></div>' +
-      '<p class="note">Open a topic on Week, read its note here, then tick the topic. ' +
-      "Notes live in <b>notes/</b> and rebuild with <b>notes/sync.sh</b> when the shell changes.</p></div>";
+      '<p class="note">Open a topic on Week, read its note here, then tick the topic.</p></div>';
     return h + "</div>";
   }
 
